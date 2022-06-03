@@ -27,6 +27,5 @@ public class Transaction {
     private String description;
 
     @Column(name = "amount")
-    private Number amount;
-
+    private Float amount;
 }
