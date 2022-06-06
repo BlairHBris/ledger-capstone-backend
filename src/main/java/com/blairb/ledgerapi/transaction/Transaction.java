@@ -23,6 +23,9 @@ public class Transaction {
     @Column(name = "date")
     private String date;
 
+    @Column(name = "account")
+    private String account;
+
     @Column(name = "description")
     private String description;
 
