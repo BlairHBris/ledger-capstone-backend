@@ -28,6 +28,7 @@ public class TransactionService {
         if (foundTransaction.isPresent()) {
             Transaction updatedTransaction = foundTransaction.get();
             updatedTransaction.setDescription(transaction.getDescription());
+            updatedTransaction.setAccount(transaction.getAccount());
             updatedTransaction.setCredit(transaction.getCredit());
             updatedTransaction.setAmount(transaction.getAmount());
             updatedTransaction.setDate(transaction.getDate());
